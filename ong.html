@@ -8,24 +8,56 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url('img/fondo.jpg'); /* Imagen de fondo */
-            background-size: cover; /* Cubrir toda el área del cuerpo */
-            font-family: Arial, sans-serif; /* Fuente de texto */
+            background-image: url('img/fondo.jpg'); 
+            background-size: cover; 
+            font-family: Arial, sans-serif; 
         }
         .pillar {
-            background-color: rgba(255, 255, 255, 0.8); /* Color del pilar con transparencia */
-            width: 80%; /* Ancho del pilar */
-            margin: 20px auto; /* Margen para centrar el pilar */
-            padding: 20px; /* Espaciado dentro del pilar */
-            border-top: 5px solid #ccc; /* Marco superior */
-            border-bottom: 5px solid #ccc; /* Marco inferior */
-            text-align: center; /* Centrar todo el texto dentro del pilar */
+            background-color: rgba(255, 255, 255, 0.8); 
+            width: 80%; 
+            margin: 20px auto; 
+            padding: 20px; 
+            border-top: 5px solid #ccc; 
+            border-bottom: 5px solid #ccc; 
+            text-align: center; 
+        }
+        /* Estilo para el menú */
+        nav {
+            background-color: #f2f2f2; /* Color de fondo del menú */
+            width: 20%; /* Ancho del menú */
+            float: left; /* Flotar a la izquierda */
+            padding: 20px; /* Espaciado dentro del menú */
+        }
+        nav ul {
+            list-style-type: none; /* Eliminar los marcadores de lista */
+            padding: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px; /* Espacio entre elementos del menú */
+        }
+        nav ul li a {
+            text-decoration: none; /* Eliminar subrayado de los enlaces */
+            color: #333; /* Color de texto de los enlaces */
+        }
+        nav ul li a:hover {
+            color: #666; /* Cambiar color de texto al pasar el ratón */
+        }
+        /* Estilo para el área de contenido */
+        .content {
+            width: 80%; /* Ancho del área de contenido */
+            float: left; /* Flotar a la izquierda */
+            padding: 20px; /* Espaciado dentro del área de contenido */
+        }
+        /* Estilo para los cuadros de colores */
+        .color-box {
+            width: 100%;
+            height: 25vh; /* Altura del 25% del total de la página */
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <div class="pillar">
-        <!-- Contenido del pilar aquí -->
         <header>
             <h1>Ayuda a un Peludo: ¡Adopta un amigo!</h1>
             <p>¡Bienvenido a Ayuda a un Peludo! Somos una organización dedicada al rescate y la adopción de animales callejeros, centrándonos en brindar una segunda oportunidad a perros y gatos que necesitan un hogar amoroso. Nuestra misión es promover la adopción responsable y el bienestar animal, trabajando incansablemente para encontrar el compañero perfecto para cada familia. Con el compromiso de nuestro equipo de voluntarios y colaboradores, ofrecemos atención médica, rehabilitación y cuidado amoroso a cada uno de nuestros peludos amigos, asegurando que encuentren un lugar seguro y feliz para llamar hogar. Juntos, estamos cambiando vidas, una pata a la vez.</p>
@@ -60,3 +92,4 @@
     </div>
 </body>
 </html>
+
